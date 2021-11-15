@@ -60,6 +60,9 @@
   left: 42%;
 }
 
+/* ----------------------------------------- */
+/* ---------- Start Changing Here ---------- */
+
 /* Uncategorized */
 .kanban-plugin__item-tag[href^="#"] {
   --color: #e5e5e5;
@@ -136,3 +139,6 @@
   --text-color: #232323;
 }
 /* #personal */
+
+/* ---------- End Changing Here ---------- */
+/* ----------------------------------------- */
