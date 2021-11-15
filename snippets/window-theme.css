@@ -1,0 +1,11 @@
+.workspace-ribbon, .titlebar {
+  background-color: lightskyblue;
+}
+
+.side-dock-ribbon-tab, .side-dock-ribbon-action, .workspace-ribbon-collapse-btn, .titlebar-text {
+  color: black;
+}
+
+.side-dock-ribbon-tab:hover, .side-dock-ribbon-action:hover, .workspace-ribbon-collapse-btn:hover, .titlebar-text:hover {
+  color: black;
+}

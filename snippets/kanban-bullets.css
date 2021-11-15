@@ -1,0 +1,138 @@
+.kanban-plugin__item-title {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  position: relative;
+  gap: 0.75rem;
+}
+
+.kanban-plugin__item-metadata {
+  position: relative;
+  width: 100%;
+}
+
+.kanban-plugin__item-tags {
+  position: relative;
+}
+
+.kanban-plugin__item-tag[href^="#"] {
+  position: absolute !important;
+  z-index: 1 !important;
+  transition: all 0.25s ease !important;
+  font-size: 0 !important;
+  padding: 0.25rem 0.75rem !important;
+
+  background: var(--color) !important;
+  color: var(--color) !important;
+  box-shadow: 0 0 0 2px hsl(0, 0%, 0%);
+}
+
+.kanban-plugin__item-tag:hover {
+  z-index: 10 !important;
+  padding: 0.15rem 0.5rem !important;
+
+  color: var(--text-color) !important;
+  font-size: 0.75rem !important;
+  width: auto !important;
+}
+
+.kanban-plugin__item-tag:nth-child(2) {
+  left: 7%;
+}
+
+.kanban-plugin__item-tag:nth-child(3) {
+  left: 14%;
+}
+
+.kanban-plugin__item-tag:nth-child(4) {
+  left: 21%;
+}
+
+.kanban-plugin__item-tag:nth-child(5) {
+  left: 28%;
+}
+
+.kanban-plugin__item-tag:nth-child(6) {
+  left: 35%;
+}
+
+.kanban-plugin__item-tag:nth-child(7) {
+  left: 42%;
+}
+
+/* Uncategorized */
+.kanban-plugin__item-tag[href^="#"] {
+  --color: #e5e5e5;
+  --text-color: #232323;
+}
+/* Uncategorized */
+
+/* #personalProjects */
+.kanban-plugin__item-tag[href="#personalProjects"] {
+  --color: #9c89f3;
+  --text-color: #232323;
+}
+/* #personalProjects */
+
+/* #homeImprovement */
+.kanban-plugin__item-tag[href="#homeImprovement"] {
+  --color: #479adf;
+  --text-color: #232323;
+}
+/* #homeImprovement */
+
+/* #clientWork */
+.kanban-plugin__item-tag[href="#clientWork"] {
+  --color: #06c1eb;
+  --text-color: #232323;
+}
+/* #clientWork */
+
+/* #codePalmBeach */
+.kanban-plugin__item-tag[href="#codePalmBeach"] {
+  --color: #bada55;
+  --text-color: #232323;
+}
+/* #codePalmBeach */
+
+/* #meetup */
+.kanban-plugin__item-tag[href="#meetup"] {
+  --color: #da1e37;
+  --text-color: #e5e5e5;
+}
+/* #meetup */
+
+/* #openSource */
+.kanban-plugin__item-tag[href="#openSource"] {
+  --color: #16db93;
+  --text-color: #232323;
+}
+/* #openSource */
+
+/* #personal */
+.kanban-plugin__item-tag[href="#personal"] {
+  --color: #83e377;
+  --text-color: #232323;
+}
+/* #personal */
+
+/* #personal */
+.kanban-plugin__item-tag[href="#training"] {
+  --color: #efea5a;
+  --text-color: #232323;
+}
+/* #personal */
+
+/* #personal */
+.kanban-plugin__item-tag[href="#webDev"] {
+  --color: #f1c453;
+  --text-color: #232323;
+}
+/* #personal */
+
+/* #personal */
+.kanban-plugin__item-tag[href="#photography"] {
+  --color: #f29e4c;
+  --text-color: #232323;
+}
+/* #personal */
